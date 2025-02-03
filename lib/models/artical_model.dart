@@ -68,7 +68,7 @@ class Article extends HiveObject {
   }
 }
 
-@HiveType(typeId: 1) // ให้ Type ID เป็น 1
+@HiveType(typeId: 1)
 class Source extends HiveObject {
   @HiveField(0)
   final String? id;
