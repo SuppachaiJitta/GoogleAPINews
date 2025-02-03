@@ -10,7 +10,7 @@ class NewsScreenController extends GetxController {
   Dio dio = Dio();
   RxBool isLoading = true.obs;
   RxList<Article> articles = RxList<Article>([]);
-  RxList<Article> savedArticles = <Article>[].obs;
+  RxList<Article> savedArticles = RxList<Article>([]);
   RxInt currentIndex = 0.obs;
   RxInt currentPage = 1.obs;
   final RxString currentTopic = 'LATEST'.obs;
